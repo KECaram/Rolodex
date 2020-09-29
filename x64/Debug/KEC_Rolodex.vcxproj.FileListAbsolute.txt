@@ -1,0 +1,4 @@
+F:\UMASS Classes\Semester 3\C++ Programming\KEC_Rolodex\x64\Debug\KEC_Rolodex.exe
+F:\UMASS Classes\Semester 3\C++ Programming\KEC_Rolodex\x64\Debug\KEC_Rolodex.pdb
+C:\Users\Keith\Desktop\UMASS Classes\Semester 3\C++ Programming\KEC_Rolodex\x64\Debug\KEC_Rolodex.exe
+C:\Users\Keith\Desktop\UMASS Classes\Semester 3\C++ Programming\KEC_Rolodex\x64\Debug\KEC_Rolodex.pdb

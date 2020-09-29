@@ -1,0 +1,194 @@
+Keith Caram
+Test Output from Rolodex Project
+
+TEST 
+
+Welcome to Keith's Rolodex!
+
+Enter a command (enter 'help' for a list of commands): list
+
+  First Name   Last Name                                 Address               Occupation   Phone Number
+       Adolf       Coors                               Boston MA        Beer Manufacturer       555-2337
+        Tony      Hansen                  12 E. St. NY, NY 33333                   Writer       555-9999
+      Alonza       Heard             123 Anyplace Ave Malden, MA                 Mechanic       555-5678
+        Alan      Lupine             1 Bigelow Ave. Lawrence, MA                      Vet       555-7654
+        Fred      Milton               12 Freedom Way Nashua, NH                    Sales       555-9981
+     Seymour      Papert                                     MIT           Lego Professor       555-1111
+       Jewel     Proverb           34 Washington St. Waltham, MA               Landscaper       555-3333
+        Paul      Revere         45 Commonwealth Ave. Boston, MA    Radical Revolutionary       555-1776
+         Jen       Reyes               325 Oak Rd Wilmington, MA           Graphic artist       555-4950
+         Jon       Smyth    CMU Computer Services Pittsburgh, PA        Computer Hardware       555-1324
+
+Enter a command (enter 'help' for a list of commands): search
+
+**Enter the name you'd like to search**
+
+First Name: Alonza
+Last Name: Heard
+
+**Entry Found**
+
+  First Name   Last Name                                 Address               Occupation   Phone Number
+      Alonza       Heard             123 Anyplace Ave Malden, MA                 Mechanic       555-5678
+
+Enter a command (enter 'help' for a list of commands): view
+
+  First Name   Last Name                                 Address               Occupation   Phone Number
+      Alonza       Heard             123 Anyplace Ave Malden, MA                 Mechanic       555-5678
+
+Enter a command (enter 'help' for a list of commands): flip
+
+  First Name   Last Name                                 Address               Occupation   Phone Number
+        Alan      Lupine             1 Bigelow Ave. Lawrence, MA                      Vet       555-7654
+
+Enter a command (enter 'help' for a list of commands): search
+
+**Enter the name you'd like to search**
+
+First Name: Jon
+Last Name: Smyth
+
+**Entry Found**
+
+  First Name   Last Name                                 Address               Occupation   Phone Number
+         Jon       Smyth    CMU Computer Services Pittsburgh, PA        Computer Hardware       555-1324
+
+Enter a command (enter 'help' for a list of commands): view
+
+  First Name   Last Name                                 Address               Occupation   Phone Number
+         Jon       Smyth    CMU Computer Services Pittsburgh, PA        Computer Hardware       555-1324
+
+Enter a command (enter 'help' for a list of commands): remove
+
+  First Name   Last Name                                 Address               Occupation   Phone Number
+         Jon       Smyth    CMU Computer Services Pittsburgh, PA        Computer Hardware       555-1324
+
+Remove this card (y/n): y
+
+**Card removed from the Rolodex**
+
+Enter a command (enter 'help' for a list of commands): view
+
+  First Name   Last Name                                 Address               Occupation   Phone Number
+       Adolf       Coors                               Boston MA        Beer Manufacturer       555-2337
+
+Enter a command (enter 'help' for a list of commands): add
+
+**Enter Card Information**
+Enter First Name: Matthew
+Enter Last Name: Williams
+Enter Occupation: Teacher
+Enter Address: 69 Main St, Acton MA
+Enter Phone Number: 555-9330
+**New Card Successfully Added**
+
+Enter a command (enter 'help' for a list of commands): view
+
+  First Name   Last Name                                 Address               Occupation   Phone Number
+     Matthew    Williams                    69 Main St, Acton MA                  Teacher       555-9330
+
+Enter a command (enter 'help' for a list of commands): flip
+
+  First Name   Last Name                                 Address               Occupation   Phone Number
+       Adolf       Coors                               Boston MA        Beer Manufacturer       555-2337
+
+Enter a command (enter 'help' for a list of commands): remove
+
+  First Name   Last Name                                 Address               Occupation   Phone Number
+       Adolf       Coors                               Boston MA        Beer Manufacturer       555-2337
+
+Remove this card (y/n): y
+
+**Card removed from the Rolodex**
+
+Enter a command (enter 'help' for a list of commands): view
+
+  First Name   Last Name                                 Address               Occupation   Phone Number
+        Tony      Hansen                  12 E. St. NY, NY 33333                   Writer       555-9999
+
+Enter a command (enter 'help' for a list of commands): add
+
+**Enter Card Information**
+Enter First Name: Jim
+Enter Last Name: Butler
+Enter Occupation: Contractor
+Enter Address: 33 Cedar Lane, Concord, MA
+Enter Phone Number: 555-8535
+**New Card Successfully Added**
+
+Enter a command (enter 'help' for a list of commands): view
+
+  First Name   Last Name                                 Address               Occupation   Phone Number
+         Jim      Butler              33 Cedar Lane, Concord, MA               Contractor       555-8535
+
+Enter a command (enter 'help' for a list of commands): search
+
+**Enter the name you'd like to search**
+
+First Name: Jewel
+Last Name: Proverb
+
+**Entry Found**
+
+  First Name   Last Name                                 Address               Occupation   Phone Number
+       Jewel     Proverb           34 Washington St. Waltham, MA               Landscaper       555-3333
+
+Enter a command (enter 'help' for a list of commands): view
+
+  First Name   Last Name                                 Address               Occupation   Phone Number
+       Jewel     Proverb           34 Washington St. Waltham, MA               Landscaper       555-3333
+
+Enter a command (enter 'help' for a list of commands): remove
+
+  First Name   Last Name                                 Address               Occupation   Phone Number
+       Jewel     Proverb           34 Washington St. Waltham, MA               Landscaper       555-3333
+
+Remove this card (y/n): y
+
+**Card removed from the Rolodex**
+
+Enter a command (enter 'help' for a list of commands): view
+
+  First Name   Last Name                                 Address               Occupation   Phone Number
+        Paul      Revere         45 Commonwealth Ave. Boston, MA    Radical Revolutionary       555-1776
+
+Enter a command (enter 'help' for a list of commands): add
+
+**Enter Card Information**
+Enter First Name: Jim
+Enter Last Name: Butler
+Enter Occupation: Consultant
+Enter Address: 22 Minuteman St, Lexington, MA
+Enter Phone Number: 555-4422
+**New Card Successfully Added**
+
+Enter a command (enter 'help' for a list of commands): add
+
+**Enter Card Information**
+Enter First Name: Dan
+Enter Last Name: Butler
+Enter Occupation: Chauffeur
+Enter Address: 68 Willow St, Westford, MA
+Enter Phone Number: 555-8493
+**New Card Successfully Added**
+
+Enter a command (enter 'help' for a list of commands): list
+
+  First Name   Last Name                                 Address               Occupation   Phone Number
+         Dan      Butler              68 Willow St, Westford, MA                Chauffeur       555-8493
+         Jim      Butler          22 Minuteman St, Lexington, MA               Consultant       555-4422
+         Jim      Butler              33 Cedar Lane, Concord, MA               Contractor       555-8535
+        Tony      Hansen                  12 E. St. NY, NY 33333                   Writer       555-9999
+      Alonza       Heard             123 Anyplace Ave Malden, MA                 Mechanic       555-5678
+        Alan      Lupine             1 Bigelow Ave. Lawrence, MA                      Vet       555-7654
+        Fred      Milton               12 Freedom Way Nashua, NH                    Sales       555-9981
+     Seymour      Papert                                     MIT           Lego Professor       555-1111
+        Paul      Revere         45 Commonwealth Ave. Boston, MA    Radical Revolutionary       555-1776
+         Jen       Reyes               325 Oak Rd Wilmington, MA           Graphic artist       555-4950
+     Matthew    Williams                    69 Main St, Acton MA                  Teacher       555-9330
+
+Enter a command (enter 'help' for a list of commands): quit
+
+C:\Users\Keith\Desktop\UMASS Classes\Semester 3\C++ Programming\KEC_Rolodex\x64\Debug\KEC_Rolodex.exe (process 8688) exited with code 0.
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .
